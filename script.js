@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const downloadBtn = document.getElementById("downloadBtn");
+    const downloadBtn = document.getElementById("download");
   
     if (downloadBtn) {
       downloadBtn.addEventListener("click", function () {
