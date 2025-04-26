@@ -1,5 +1,5 @@
 .card {
-    max-width: 400px;
+    max-width: 600px;
     margin: 40px auto;
     background: linear-gradient(135deg, rgba(0,110,255,0.8), rgba(0,60,180,0.9));
     padding: 30px;
@@ -24,8 +24,8 @@
 }
 
 .avatar{
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -78,6 +78,7 @@
 .card h2{
     color: white;
     font-weight: bold;
+    font-size: 25px;
 }
 
 .card ul{
@@ -89,4 +90,32 @@
 .card li{
     margin-bottom: 8px;
     color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card p{
+    font-size: 14px;
+}
+
+.card2 p{
+    font-size: 14px;
+}
+
+.card2 li {
+    margin-bottom: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.card3 p{
+    font-size: 14px;
+}
+
+.card3 li {
+    margin-bottom: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
 }
